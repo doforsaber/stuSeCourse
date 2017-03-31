@@ -16,7 +16,7 @@ namespace AspNetMvc.QuickStart.Controllers
     {
         private EduContext db = new EduContext();
         private static readonly int PAGE_SIZE = 3;
-        private static readonly int p = 2;
+        private static readonly int p = 22;
         // GET: Courses
         public ActionResult Index()
         {
