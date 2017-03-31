@@ -12,11 +12,11 @@ using AspNetMvc.QuickStart.Models;
 
 namespace AspNetMvc.QuickStart.Controllers
 {
-
     public class CoursesController : Controller
     {
         private EduContext db = new EduContext();
         private static readonly int PAGE_SIZE = 3;
+        private static readonly int p = 2;
         // GET: Courses
         public ActionResult Index()
         {
