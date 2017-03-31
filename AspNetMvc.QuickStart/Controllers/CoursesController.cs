@@ -12,6 +12,7 @@ using AspNetMvc.QuickStart.Models;
 
 namespace AspNetMvc.QuickStart.Controllers
 {
+
     public class CoursesController : Controller
     {
         private EduContext db = new EduContext();
